@@ -1,0 +1,12 @@
+inherit rubygem
+
+NAME="ruby-curses"
+VERSION=1.0.1
+RELEASE=1
+CATEGORY="Ruby"
+SUMMARY="Ruby ncurses bindings"
+DESCRIPTION="A Ruby binding for ncurses, formerly part of the Ruby standard
+library. curses is an extension library for text UI applications."
+
+# was removed from upstream stdlib in 2.1
+PATCH_URI="1.0.1-ruby20.patch"

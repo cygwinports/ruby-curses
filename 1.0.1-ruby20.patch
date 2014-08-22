@@ -1,0 +1,11 @@
+--- origsrc/curses-1.0.1/ext/curses/extconf.rb	2014-08-21 23:17:19.792070800 -0500
++++ src/curses-1.0.1/ext/curses/extconf.rb	2014-08-21 23:25:20.497612700 -0500
+@@ -129,7 +129,7 @@ if header_library
+     warn "unexpeted value for --with-curses-version: #{with_curses_version}"
+   end
+   
+-  if RUBY_VERSION >= '2.1'
++  if true
+     create_makefile("curses")
+   else
+     # curses is part of ruby-core pre-2.1.0, so this gem is not required. But
