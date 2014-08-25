@@ -10,3 +10,7 @@ library. curses is an extension library for text UI applications."
 
 # was removed from upstream stdlib in 2.1
 PATCH_URI="1.0.1-ruby20.patch"
+
+PKG_NAMES="${NAME} ${NAME}-doc"
+ruby_curses_CONTENTS="--exclude=sample ${RUBYGEM_EXTDIR#/} ${RUBYGEM_INSTDIR#/} ${RUBYGEM_SPEC#/}"
+ruby_curses_doc_CONTENTS="${RUBYGEM_DOCDIR#/} ${RUBYGEM_INSTDIR#/}/sample"
