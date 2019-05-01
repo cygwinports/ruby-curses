@@ -1,7 +1,7 @@
 inherit rubygem
 
 NAME="ruby-curses"
-VERSION=1.2.4
+VERSION=1.2.7
 RELEASE=1
 CATEGORY="Ruby"
 SUMMARY="Ruby ncurses bindings"
